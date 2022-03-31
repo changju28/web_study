@@ -1,0 +1,28 @@
+.total-center {
+	text-align: center;
+}
+
+.image-logo {
+	margin-top: 80px;
+}
+
+.menu {
+	font-family: Helvetica, Arial, sans-serif;
+	font-size: 16px;
+	color: rgb(88, 89, 91);
+	display: inline;
+	margin-left: 20px;
+}
+
+a {
+	text-decoration: none;
+}
+
+.menu-updown {
+	margin-top: 60px;
+	margin-bottom: 60px;
+}
+
+.image {
+	width: 90%;
+}

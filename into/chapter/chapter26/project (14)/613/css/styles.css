@@ -1,0 +1,162 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  font-family: 'Roboto', sans-serif;
+}
+.navbar {
+  background-color: #353535;
+  width: 100%;
+  height: 60px;
+  font-size: 20px;
+  color: white;
+  padding-left: 50px;
+  /*지우기*/
+}
+.navbar span {
+  line-height: 60px;
+  vertical-align: middle;
+}
+.hero-header {
+  height: 350px;
+  width: 100%;
+  background-image: url("../images/main_img.jpg");
+  background-size: cover;
+  background-position: center center;
+}
+.content-contaner {
+  height: 320px;
+  width: 100%;
+  padding-left: 30px;
+  padding-right: 30px;
+  /*지우기*/
+  line-height: 320px;
+}
+
+.content {
+  vertical-align: middle;
+  display: inline-block;
+  line-height: normal;
+}
+.content-contaner .content-title {
+  font-size: 16px;
+  color: #4A4A4A;
+  font-weight: bold;
+  margin-bottom: 10px;
+}
+.content-contaner .content-sub-title {
+  font-size: 20px;
+  color: #1B1B1B;
+  font-weight: bold;
+  margin-bottom: 30px;
+}
+.content-contaner .content-text {
+  font-size: 16px;
+  color: #7A7A7A;
+}
+.hero-header1 {
+  width: 100%;
+  height: 385px;
+  background-image: url("../images/img1.jpg");
+  background-size: cover;
+  background-position: center top;
+}
+.hero-header2 {
+  height: 200px;
+  background-image: url("../images/img2.jpg");
+  background-size: cover;
+  background-position: center top;
+  line-height: normal;
+  text-align: center;
+}
+
+.hero-header2 a {
+  color: white;
+  font-weight: bold;
+  border: 4px solid white;
+  padding: 9px 40px;
+  text-decoration: none;
+  vertical-align: middle;
+}
+
+.hero-header2 .hellper {
+  display: inline-block;
+  height: 100%;
+  vertical-align: middle;
+}
+
+}
+.hero-header3 {
+  width: 100%;
+  height: 200px;
+  background-image: url("../images/img3.jpg");
+  background-size: cover;
+  background-position: center top;
+}
+
+@media (min-width: 768px) {
+  .col {
+    float: left;
+  }
+
+  .hero-header {
+    height: 562px;
+    width: 100%;
+  }
+
+  .content-contaner {
+    height: 282px;
+    width: 100%;
+  }
+
+  .hero-header1 {
+    height: 360px;
+    width: 50%;
+  }
+
+  .hero-header2 {
+    height: 180px;
+    width: 50%;
+  }
+
+  .hero-header3 {
+    height: 180px;
+    width: 50%;
+  }
+
+
+
+}
+
+@media (min-width: 992px) {
+  .col {
+    float: left;
+  }
+
+  .hero-header {
+    height: 700px;
+    width: 50%;
+  }
+
+  .content-contaner {
+    height: 350px;
+    width: 50%;
+  }
+
+  .hero-header1 {
+    height: 350px;
+    width: 25%;
+  }
+
+  .hero-header2 {
+    height: 175px;
+    width: 25%;
+  }
+
+  .hero-header3 {
+    height: 175px;
+    width: 25%;
+  }
+}

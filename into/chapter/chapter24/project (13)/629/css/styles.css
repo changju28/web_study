@@ -1,0 +1,119 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  min-width: 992px;
+  font-family: "Helvetica";
+}
+
+#navbar {
+  padding-left: 30px;
+  padding-right: 30px;
+  height: 60px;
+  background-color: white;
+}
+
+#logo {
+  line-height: 60px;
+  width: 150px;
+  margin: 0;
+}
+
+#logo img {
+  vertical-align: middle;
+}
+
+#menu {
+  float: right;
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+#menu li {
+  float: left;
+
+}
+
+#menu li a {
+  margin-left: 30px;
+  font-size: 13px;
+  text-decoration: none;
+  color: black;
+  line-height: 60px;
+  font-weight: bold;
+}
+
+#picture {
+  height: 450px;
+  background-image: url("../images/hero_header.jpg");
+  background-size: cover;
+
+}
+
+
+#content h3 {
+  margin-top: 60px;
+  margin-bottom: 60px;
+  font-size: 24px;
+  color: #545454;
+  text-align: center;
+}
+/* hero header */
+
+.products{
+  text-align: center;
+  width: 800px;
+  margin-left: auto;
+  margin-right: auto;
+}
+.product a {
+  float: left;
+  margin-left: 20px;
+  margin-bottom: 80px;
+  text-decoration: none;
+  color: black;
+  height: 320px;
+}
+
+.product {
+
+}
+
+.product a:hover {
+  border: 2px solid gray;
+}
+
+.product a p{
+  font-size: 16px;
+}
+
+.item {
+  margin-top: 20px;
+}
+
+.price {
+  margin-top: 4px;
+}
+
+#footer {
+  width: 800px;
+  clear: left;
+  margin-top: 120px;
+  margin-bottom: 80px;
+  margin-left: auto;
+  margin-right: auto;
+  text-align: center;
+}
+
+#footer img:not(last-child) {
+  margin-left: 20px;
+}
+
+.service {
+  display: inline;
+}
+
+
